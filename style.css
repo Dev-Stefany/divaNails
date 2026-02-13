@@ -154,7 +154,9 @@ padding-bottom: 30px;
 min-width: 280px;
 
 }
-
+.hero {
+height: 80vh;
+}
 .hero-content {
 flex-direction: column;
 padding-top: 100px;
