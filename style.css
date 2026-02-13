@@ -148,8 +148,7 @@ filter: grayscale(0%);
         height: auto;
         padding: 60px 20px;
     }
-    {
-
+    
     .grid-services-img {
         display: flex;
         flex-direction: row; /* força linha */
