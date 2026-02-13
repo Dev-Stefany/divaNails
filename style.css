@@ -148,6 +148,15 @@ filter: grayscale(0%);
         height: auto;
         padding: 60px 20px;
     }
+    {
+
+    .grid-services-img {
+        display: flex;
+        flex-direction: row; /* força linha */
+        overflow-x: auto;
+        gap: 15px;
+        padding-bottom: 20px;
+        }
 
     .hero-content {
         flex-direction: column;
