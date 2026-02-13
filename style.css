@@ -143,33 +143,40 @@ filter: grayscale(0%);
 
 /* Responsividade para Celular */
 @media (max-width: 768px) {
-.grid-services-img {
-display: flex;
-overflow-x: auto;
-gap: 15px;
-padding-bottom: 30px;
-}
 
-.card-img {
-min-width: 280px;
+    .hero {
+        height: auto;
+        padding: 60px 20px;
+    }
 
-}
-.hero {
-height: 80vh;
-}
-.hero-content {
-flex-direction: column;
-padding-top: 100px;
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 25px;
+        width: 100%;
+    }
 
-}
+    .hero-text-left,
+    .hero-text-right {
+        flex: none;
+        width: 100%;
+    }
 
-.hero-image img {
-width: 280px;
-height: 280px;
+    .hero-image {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 
-}
+    .hero-image img {
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+    }
 
-.about{
-    margin-top: 50px;
-}
+    p {
+        font-size: 1rem;
+    }
 }
