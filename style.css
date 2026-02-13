@@ -158,7 +158,7 @@ filter: grayscale(0%);
         }
 
     .hero-content {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         text-align: center;
